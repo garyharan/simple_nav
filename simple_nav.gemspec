@@ -7,11 +7,11 @@ require "simple_nav/version"
 Gem::Specification.new do |s|
   s.name        = "simple_nav"
   s.version     = SimpleNav::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleNav."
-  s.description = "TODO: Description of SimpleNav."
+  s.authors     = ["Gary Haran"]
+  s.email       = ["gary.haran@gmail.com"]
+  s.homepage    = "https://github.com/garyharan/simple_nav"
+  s.summary     = "Provides a simple navigation helper for learning purpose."
+  s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
