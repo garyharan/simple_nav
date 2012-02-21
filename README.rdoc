@@ -1,0 +1,27 @@
+= SimpleNav
+
+== WARNING
+
+This is for learning purpose only and for quick insecure applications.  Use not on production sites.
+
+= Description
+
+This is a sample navigation menu that creates links to index files of all your active record models.
+
+== Installation
+
+You can plug into your rails 3 application in a jiffy. 
+
+In your Gemfile
+
+    gem 'simple_nav'
+
+In your application.css
+
+    *= require simple_nav
+
+And in your layout partial:
+
+    <%= simple_nav %>
+
+Use at your own peril!

@@ -1,0 +1,5 @@
+<ul class="simple_nav">
+  <% tables.each do |model| %>
+    <li><%= link_to model.name.pluralize, eval("#{model.name.tableize.pluralize}_path") %></li>
+  <% end %>
+</ul>
